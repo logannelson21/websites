@@ -1,0 +1,34 @@
+/* Navbar */
+.topLinks {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 20px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    display: flex;
+    margin: 10px 5px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+/* Body */
+
