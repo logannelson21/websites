@@ -1,4 +1,9 @@
 /* Navbar */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .topLinks {
     display: flex;
     gap: 10px;
@@ -8,7 +13,7 @@
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
     margin-right: 20px;
 }
@@ -17,7 +22,8 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     display: flex;
-    margin: 10px 5px;
+    margin: 15px 10px;
+    color: white;
 }
 
 .mainContainer {
@@ -28,7 +34,32 @@ h1 {
 .navbar {
     display: flex;
     justify-content: center;
+    background-color: black;
 }
 
 /* Body */
+
+.bdy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(welding.jpg);
+    padding: 90px;
+}
+
+.shopbtn {
+    display: block;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.body-info {
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+}
 
