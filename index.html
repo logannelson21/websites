@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css"/>
+    <script src="web.js" defer></script>
     <title>Big-D Welding</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
 <div class="mainContainer">
         <nav class="navbar">
             <h1 class="title">Big-D Welding</h1>
-            <ul class="topLinks">
+            <ul id="toplinks">
                 <li><a href="#">Products</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">About</a></li>
@@ -22,10 +23,23 @@
 
     <div class="bdy">
         <div class="body-info">
-            <h2>Handmade Products Built to Last</h2>
-        <button class="shopbtn">Shop Now!</button>
+            <h2>Handmade Products Built to Last.</h2>
+        <button id="shopbtn" onmouseover="changeColor()" onmouseout="changeBack()">Shop Now!</button>
         </div>
     </div>
+
+    <div class="content">
+        <h2>What we Offer</h2>
+            <img src="stove.jpg" alt="a handrcafted stove with a removeable shelf, warming tray, and fire poker.">
+            <div class="pic">
+                <p>Handcrafted Stoves</p>
+            </div>
+            <img src="poleholder.jpg" alt="metal fishing pole holder used to poke in the ground to hold your pole.">
+            <div class="pic">
+                <p></p>
+            </div>
+    </div>
+
 </div>
 </body>
 </html>
