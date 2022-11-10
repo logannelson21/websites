@@ -4,11 +4,15 @@ html, body {
     padding: 0;
 }
 
-.topLinks {
+#toplinks {
     display: flex;
     gap: 10px;
     margin-left: auto;
     list-style: none;
+}
+
+  li:hover {
+    transform: scale(1.5);
 }
 
 a {
@@ -44,15 +48,20 @@ h1 {
     align-items: center;
     justify-content: center;
     background-image: url(welding.jpg);
+    background-size: 90% 97%;
     padding: 90px;
 }
 
-.shopbtn {
+#shopbtn {
     display: block;
+    text-align: center;
     border-radius: 15px;
     width: 150px;
     height: 50px;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    background-color: white;
+    border-style: none;
 }
 
 .body-info {
@@ -61,5 +70,8 @@ h1 {
     color: white;
     align-items: center;
     flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 30px;
+    font-weight: bold;
 }
 
