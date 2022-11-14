@@ -1,7 +1,11 @@
 /* Navbar */
 
 * {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.background {
+    background-color: #d1cfc8;
 }
 
 html, body {
@@ -26,15 +30,16 @@ p {
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
     margin-right: 20px;
 }
 
 h1 {
     font-weight: bold;
+    font-size: 40px;
     display: flex;
     margin: 15px 10px;
-    color: white;
+    color: black;
 }
 
 .mainContainer {
@@ -45,7 +50,7 @@ h1 {
 .navbar {
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: #d1cfc8;
 }
 
 /* Body */
@@ -54,8 +59,9 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(welding.jpg);
-    background-size: 90% 97%;
+    background-image: url(welding3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     padding: 90px;
 }
 
@@ -76,18 +82,22 @@ h1 {
     color: white;
     align-items: center;
     flex-direction: column;
+    font-size: 35px;
     margin-bottom: 30px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 /* Content */
+
+h2 {
+    font-size: 40px;
+}
 
 .box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: grey;
 }
 
 .content-info {
@@ -104,8 +114,13 @@ h1 {
     margin: 5px 30px 5px 30px;
 }
 
+img:hover {
+    transform: scale(1.5);
+}
+
 .pic {
     display: flex;
+    color: black;
     align-items: center;
     justify-content: center;
 }
@@ -113,6 +128,7 @@ h1 {
 /* Bottom Link */
 
 h3 {
+    font-size: 20px;
     font-weight: bolder;
 }
 
@@ -121,21 +137,21 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
     flex-direction: column;
 }
 
- .fb-button {
-    border-radius: 15px;
-    text-align: center;
+
+.fb-final {
+    display: block;
+    background: url(http://www.facebook.com/marketplace/item/1219665345552686/?hoisted=false&ref=search&referral_code=null&referral_story_type=post&tracking=browse_serp%3A6c50667a-4e0c-4b5c-988a-a2a2922b3357);
+    border-style: none;
     height: 50px;
     width: 150px;
-    margin: 10px;
-    background-image: url(fb.jpg);
-    background-repeat: no-repeat;
-    background-color: transparent;
-    background-position: 0px 0px;
-    vertical-align: middle;
-
+    margin-top: 30px;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
 }
 
 
@@ -144,8 +160,11 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
-    color: white;
-    margin-top: 34px;
+    color: black;
+    margin-top: 50px;
     font-size: 10px;
+}
+
+.fb-final:hover {
+    background-color: #5783db;
 }
