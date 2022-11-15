@@ -9,11 +9,18 @@ html, body {
     padding: 0;
 }
 
+
+div {
+    width: 100vw;
+    height: 100vh;
+}
+
+
 .background {
     background-color: #d1cfc8;
 }
 
-#toplinks {
+#toplinks  {
     display: flex;
     gap: 10px;
     margin-left: auto;
@@ -40,6 +47,7 @@ h1 {
     display: flex;
     margin: 15px 10px;
     color: black;
+    margin-left: 15px;
 }
 
 .container {
@@ -49,11 +57,51 @@ h1 {
 
 .navbar {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 /* Body Content */
 
 h2 {
     margin-left: 15px;
+    margin-top: 95px;
+    font-size: 30px;
+}
+
+.para {
+    margin-left: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.btn-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact {
+    height: 50px;
+    width: 250px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+button:hover{
+    background-color: #5783db;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin-top: 50px;
+    font-size: 10px;
+    background-color: #d1cfc8;
+    margin-top: 20px;
 }
