@@ -1,1 +1,4 @@
 # websites
+This will be the repo for family websites and allow me to practice my design skills.
+
+I have created my first full website using HTML and CSS and one Javascript function for practice. I wasn't sure where to integrate Javascipt in the website, so I mainly practiced some basic design skills that I learned at the beginning of The Odin Project. This website will be made public and is a gift to a family member. It is made to function as a catalog for products. Everything is linked to Facebook Marketplace and no purchases will be made on the site. Think of it as a Costco catalog you would receive in the mail. It is fully functional. Maybe not the coolest or prettiest but it is honest work, and my first project since learning to code. Thank you for taking the time to read this!
