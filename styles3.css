@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+img:hover {
+    transform: scale(1.1);
+}
+
 
 .background {
     background-color: #d1cfc8;
@@ -61,4 +65,57 @@ h1 {
     display: flex;
     justify-content: center;
     background-color: #d1cfc8;
+}
+
+/* Body */
+
+@media (max-width: 400px) {
+    .products {
+        display: block;
+    }
+    }
+
+.products {
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box .products {
+    flex: 1;
+}
+
+.products img {
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin: 5px 30px 5px 30px;
+}
+
+.pic {
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* Link Prompt */
+
+.link-prompt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: underline;
 }
